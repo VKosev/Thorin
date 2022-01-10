@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "#ffe9aa",
+          "foreground": "#100e23",
+          "powerline_symbol": "",
+          "style": "powerline",
+          "type": "root"
+        },
+        {
+          "background": "#5a5a5a",
+          "foreground": "#CCCCCC",
+          "powerline_symbol": "",
+          "style": "powerline",
+          "type": "session",
+          "properties": {
+           "display_host": false
+          }
+        },
+        {
+          "background": "#5a5a5a",
+          "foreground": "#CCCCCC",
+          "powerline_symbol": "",
+          "properties": {
+            "folder_separator_icon": "  ",
+            "home_icon": "",
+            "style": "full"
+          },
+          "style": "powerline",
+          "type": "path"
+        },
+        {
+          "type": "git",
+          "background": "#5a5a5a",
+          "foreground": "#62df73",
+          "powerline_symbol": "",
+          "style": "powerline",
+          "properties": {
+            "display_status": true,
+            "status_colors_enabled": true,
+            "color_background": false,
+            "local_changes_color": "#ffb671",
+            "ahead_color": "#DDA7F2",
+            "behind_color": "#E44B1D",
+            "ahead_and_behind_color": "#ff6b6b"
+          }
+        },
+        {
+          "background": "#5a5a5a",
+          "foreground": "#906cff",
+          "powerline_symbol": "",
+          "properties": {
+            "prefix": "  "
+          },
+          "style": "powerline",
+          "type": "python"
+        },
+        {
+          "background": "#5a5a5a",
+          "foreground": "#ff8080",
+          "powerline_symbol": "",
+          "style": "powerline",
+          "type": "exit"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "powerline",
+          "foreground": "#CCCCCC",
+          "properties": {
+            "prefix": "",
+            "text": "\u276F"
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": false
+}
